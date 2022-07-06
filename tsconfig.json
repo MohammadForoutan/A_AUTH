@@ -1,0 +1,21 @@
+{
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+		"rootDir": "",
+		"outDir": "dist",
+		"module": "commonjs" /* Specify what module code is generated. */,
+		"typeRoots": [] /* Specify multiple folders that act like './node_modules/@types'. */,
+		"types": [
+			"@types/jest"
+		] /* Specify type package names to be included without being referenced in a source file. */,
+		"esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+		"strict": true /* Enable all strict type-checking options. */,
+		"moduleResolution": "Node",
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"sourceMap": true
+	}
+}

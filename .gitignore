@@ -1,0 +1,11 @@
+# [developments] folders
+/node_modules
+/dist
+/.vscode
+/build
+
+# private config files
+src/config/env/.env
+src/config/env/.env*
+!src/config/env/.env.sample
+/todo
